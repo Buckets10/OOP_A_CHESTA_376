@@ -41,7 +41,7 @@ public class Task1 {
             }
         } else {
             // Invalid choice
-            System.out.println("Invalid choice.");
+            System.out.println("Invalid");
         }
 
         scanner.close();
