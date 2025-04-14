@@ -1,18 +1,23 @@
-public class Main {
-    public static void main(String[] args) {
+package Codelab2;
 
-        //importing another class named BankAccount and split into two variables named
-        BankAccount bankAccount1 = new BankAccount("202410370110423", "Viero", 5000000);
-        BankAccount bankAccount2 = new BankAccount("202410370110506", "Opan", 4000000);
+public class Utama {
+    public static void main(String[] args){
+        // Create two SystemBank account objects with initial balances
+        BankAccount account1 = new BankAccount("202410370110506", "opan", 5000);
+        BankAccount account2 = new BankAccount("202410370110376", "chesta", 5000);
 
-        //calling the methods to display, deposit and withdraw for 1st person
-        bankAccount1.displayInfo();
-        bankAccount1.depositMoney(400000);
-        bankAccount1.withdrawMoney(1000);
+        // Display initial information for account1
+        account1.displayInfo();
+        // Deposit into account1
+        account1.deposit(4000);
+        // Withdraw from account1
+        account1.withdraw(300);
 
-        //calling the methods to display, deposit and withdraw for 2nd person
-        bankAccount2.displayInfo();
-        bankAccount2.depositMoney(300000);
-        bankAccount2.withdrawMoney(300000000);
+        // Display initial information for account2
+        account2.displayInfo();
+        // Deposit into account2
+        account2.deposit(4004);
+        // Withdraw from account2
+        account2.withdraw(400);
     }
 }
