@@ -7,8 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Task3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Task5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Task6" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

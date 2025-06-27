@@ -70,9 +70,9 @@ public class Admin extends User {
                 }
 
                 System.out.print("Enter index to mark as claimed: ");
-                int idxInput = LoginSystem.getIntInput(scanner);  // the number the admin typed
-                int idxArray = idxInput - 1;                      // 2️⃣ convert to 0‑based
-                scanner.nextLine();                               // consume newline
+                int idxInput = LoginSystem.getIntInput(scanner);
+                int idxArray = idxInput - 1;
+                scanner.nextLine();
 
                 try {
                     Item target = LoginSystem.reportedItems.get(idxArray);
